@@ -27,7 +27,7 @@
 
 ### Installation
 
-We strongly recommend using [uv](https://docs.astral.sh/uv/) to setup the project.
+I strongly recommend using [uv](https://docs.astral.sh/uv/) to setup the project.
 
 ```bash
 git clone https://github.com/bytedance/trae-agent.git
@@ -37,7 +37,7 @@ make install
 
 ### Setup API Keys
 
-We recommend to configure Trae Agent using the config file.
+I recommend to configure Trae Agent using the config file.
 
 You can also set your API keys as environment variables:
 
@@ -66,7 +66,7 @@ export OPENROUTER_SITE_NAME="Your App Name"
 export OPENAI_BASE_URL="your-openai-compatible-api-base-url"
 ```
 
-Although you can pass your API key directly using the `api_key` argument, we suggest utilizing [python-dotenv](https://pypi.org/project/python-dotenv/) to add `MODEL_API_KEY="My API Key"` to your `.env` file. This approach helps prevent your API key from being exposed in source control.
+Although you can pass your API key directly using the `api_key` argument, I suggest utilizing [python-dotenv](https://pypi.org/project/python-dotenv/) to add `MODEL_API_KEY="My API Key"` to your `.env` file. This approach helps prevent your API key from being exposed in source control.
 
 ### Basic Usage
 
